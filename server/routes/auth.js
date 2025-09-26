@@ -222,7 +222,7 @@ const requireAdmin = (req, res, next) => {
   }
 };
 
-module.exports = { router, requireAdmin };
+module.exports = router;
 
 
 
