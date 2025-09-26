@@ -4,7 +4,7 @@
   "description": "Teacher Performance and Development Tracking System",
   "scripts": {
     "start": "node server/server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+     "dev": "nodemon server.js",
     "server": "cd server && npm run dev",
     "client": "cd client && npm start",
     "build": "cd client && npm run build",
